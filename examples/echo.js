@@ -3,7 +3,6 @@ var gammu = require('node-gammu-json');
 var server = gammu.create({ interval: 2 });
 
 server.on({
-
   receive: function (_message, _callback) {
     this.send(_message.from, _message.content, function (_e, _m, _r) {
       console.log('transmit callback:', _e, _r);
