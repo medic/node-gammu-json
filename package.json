@@ -1,6 +1,6 @@
 {
   "name": "node-gammu-json",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Node.js wrapper for the gammu-json messaging utility",
   "main": "lib/main.js",
   "scripts": {
